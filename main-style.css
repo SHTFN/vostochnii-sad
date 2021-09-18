@@ -27,7 +27,7 @@ header{
 }
 
 .logo{
-	width: 50px;
+	width: 200px;
 	height: 50px;
 	background-image: url(icons/patterns/logo.png);
 	display: block;
@@ -56,10 +56,58 @@ header{
 
 .top-menu ul li{
 	list-style: none;
-	float: none;
+	float: left;
+	margin-left: 30px;
 	text-align: center;
 }
 
 .top-menu ul li a{
+	display: block;
+	width: 171px;
+	text-decoration: none;
+	font-family: "Roboto-Light", sans-serif;
+	font-size: 17px;
+	color: white;
+	height: 55px;
+	padding-top: 30px;
+	cursor: pointer;
+}
 
+.top-menu ul li a:hover{
+	transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	color: #00ADE4;
+}
+
+.block-top-auth{
+	width: 100px;
+	float: left;
+	margin-left: 10px;
+	height: 80px;
+}
+
+.block-top-auth p{
+	margin-top: 12px;
+	text-align: center;
+	margin-bottom: 8px;
+}
+
+.block-top-auth a{
+	text-decoration: none;
+	color: white;
+	font-family: "Roboto-Thin", sans-serif;
+	font-size: 15px;
+	cursor: pointer;
+}
+
+.block-top-auth a:hover{
+	transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	color: #00ADE4;
 }

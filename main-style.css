@@ -2,14 +2,64 @@ body{
 	background: #75B531;
 
 }
-.head{
-	font-family: 'Roboto', sans-serif;
-	font-size: 50px;
-	color: white;
-	text-align: center;
-	top: 100px;
+
+*{
+	margin: 0;
+	padding: 0;
 }
 
-.banner{
-		
+#block-body{
+	width: 1035px;
+	margin: 5px auto;
+	height: auto;
+}
+
+header{
+	width: 1035px;
+	height: 80px;
+	background-color: black;
+}
+
+.logo{
+	width: 200px;
+	float: left;
+	height: 80px;
+}
+
+.logo{
+	width: 50px;
+	height: 50px;
+	background-image: url(icons/patterns/logo.png);
+	display: block;
+	margin-left: 15px;
+	margin-top: 15px;
+	cursor: pointer;
+}
+
+.vostochnii-sad{
+	
+	color: #aa064b;
+}
+
+/*.logo p{
+	margin-left: 20px;
+	margin-top: 2px;
+	margin-bottom: 5px;
+	font-family: "Roboto-Light", sans-serif;
+}*/
+
+.top-menu{
+	width: 685px;
+	height: 80px;
+	float: left;
+}
+
+.top-menu ul li{
+	list-style: none;
+	float: none;
+	text-align: center;
+}
+
+.top-menu ul li a{
+
 }

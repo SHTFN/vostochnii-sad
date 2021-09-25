@@ -1,0 +1,96 @@
+body{
+	background: #0fa63c;
+}
+
+.container{
+	width: 500px;
+	height: 250px;
+	background-color: #007B25;
+	border-width: 2px;
+	border-color: black;
+	margin: 0 auto;
+	margin-top: 14%;
+}
+
+.text{
+	position: relative;
+	text-decoration: none;
+	color: white;
+	font-family: "Roboto-Thin", sans-serif;
+	font-size: 15px;
+	cursor: pointer;
+	caret-color: transparent;
+	top: 70px;
+	text-align: center;
+}
+
+.auth-login{
+	position: relative;
+	text-decoration: none;
+	color: white;
+	font-family: "Roboto-Thin", sans-serif;
+	font-size: 15px;
+	cursor: pointer;
+	caret-color: transparent;
+	top: 70px;
+	text-align: center;
+}
+
+.auth-password{
+	position: relative;
+	text-decoration: none;
+	color: white;
+	font-family: "Roboto-Thin", sans-serif;
+	font-size: 15px;
+	cursor: pointer;
+	caret-color: transparent;
+	top: 70px;
+	text-align: center;
+}
+
+.text-for-reg{
+	position: relative;
+	text-decoration: none;
+	color: white;
+	font-family: "Roboto-Thin", sans-serif;
+	font-size: 15px;
+	cursor: pointer;
+	caret-color: transparent;
+	top: 95px;
+	text-align: center;
+}
+
+.text-for-reg a{
+	position: relative;
+	text-decoration: none;
+	color: blue;
+	font-family: "Roboto-Thin", sans-serif;
+	font-size: 15px;
+	cursor: pointer;
+	caret-color: transparent;
+	text-align: center;
+}
+
+.Log-in{
+	position: relative;
+	text-decoration: none;
+	color: white;
+	font-family: "Roboto-Thin", sans-serif;
+	font-size: 15px;
+	cursor: pointer;
+	caret-color: transparent;
+	top: 85px;
+	text-align: center;
+}
+
+.button {
+	position: relative;
+	text-decoration: none;
+	color: white;
+	font-family: "Roboto-Thin", sans-serif;
+	font-size: 15px;
+	cursor: pointer;
+	caret-color: transparent;
+	top: 100px;
+	text-align: center;
+}

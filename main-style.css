@@ -1,5 +1,5 @@
 body{
-	background: #75B531;
+	background: #0fa63c;
 
 }
 
@@ -17,7 +17,9 @@ body{
 header{
 	width: 1035px;
 	height: 80px;
-	background-color: black;
+	background-color: #007B25;
+	border-width: 2px;
+	border-color: black;
 }
 
 .logo{
@@ -35,18 +37,6 @@ header{
 	margin-top: 15px;
 	cursor: pointer;
 }
-
-.vostochnii-sad{
-	
-	color: #aa064b;
-}
-
-/*.logo p{
-	margin-left: 20px;
-	margin-top: 2px;
-	margin-bottom: 5px;
-	font-family: "Roboto-Light", sans-serif;
-}*/
 
 .top-menu{
 	width: 685px;
@@ -71,6 +61,7 @@ header{
 	height: 55px;
 	padding-top: 30px;
 	cursor: pointer;
+	caret-color: transparent;
 }
 
 .top-menu ul li a:hover{
@@ -101,6 +92,7 @@ header{
 	font-family: "Roboto-Thin", sans-serif;
 	font-size: 15px;
 	cursor: pointer;
+	caret-color: transparent;
 }
 
 .block-top-auth a:hover{
@@ -110,4 +102,32 @@ header{
 	-moz-transition: all 0.5s ease;
 	-ms-transition: all 0.5s ease;
 	color: #00ADE4;
+}
+
+/**/
+
+content{
+	width: 1035px;
+	margin: 5px auto;
+	height: auto;
+}
+
+.container{
+	width: 800px;
+	height: 500px;
+	background-color: #007B25;
+	border-width: 2px;
+	border-color: black;
+	margin: 0 auto;
+}
+
+.container a{
+	position: relative;
+	text-decoration: none;
+	color: white;
+	font-family: "Roboto-Thin", sans-serif;
+	font-size: 15px;
+	cursor: pointer;
+	caret-color: transparent;
+	top: 20px;
 }
